@@ -1,0 +1,67 @@
+algoritmo "CADASTRO"
+
+var
+opcao: inteiro
+nome, cidade, endereco, nome_pai, nome_mae: caracter
+cpf, rg, idade, peso, renda_bruta: real
+
+inicio
+
+escreval("Cadastro de Cliente")
+     		escreval("1-incluir")
+    		escreval("2-sair")
+
+	leia(opcao)
+	se opcao=1 entao
+    		escreva("Nome:")
+		leia(nome)
+ 			limpatela()
+   		escreva("Endereço:")
+		leia(endereco)
+ 			limpatela()
+		escreva("Cidade:")
+		leia(cidade)
+			 limpatela()
+    		escreva("CPF:")
+		leia(cpf)
+			limpatela()
+    		escreva("RG:")
+		leia(rg)
+			limpatela()
+    		escreva("Idade:")
+		leia(idade)
+			limpatela()
+		escreva("Nome do Pai:")
+		leia(nome_pai)
+			limpatela()
+		escreva("Nome da Mae:")
+		leia(nome_mae)
+			limpatela()
+		escreva("Peso:")
+		leia(peso)
+			limpatela()
+		escreva("Renda Bruta:")
+		leia(renda_bruta)
+   			limpatela()
+
+   	escreva(nome)
+   	escreval(" ")
+   	escreva(endereco)
+   	escreval(" ")
+   	escreva(cidade)
+   	escreval(" ")
+   	escreva(cpf)
+   	escreval(" ")
+   	escreva(rg)
+   	escreval(" ")
+   	escreva(idade)
+   	escreval(" ")
+   	escreva(nome_pai)
+   	escreval(" ")
+   	escreva(nome_mae)
+   	escreval(" ")
+   	escreva(renda_bruta)
+	
+  fimse  
+	
+fimalgoritmo
