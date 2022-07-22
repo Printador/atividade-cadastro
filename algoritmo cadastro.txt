@@ -17,7 +17,7 @@ APRESENTE AS INFORMAÇÕES SOLICITADAS NO FINAL DO CADASTRO.
 algoritmo "CADASTRO"
 
 var
-opcao, tipo: inteiro
+opcao: inteiro
 nome, cidade, endereco, nome_pai, nome_mae: caracter
 cpf, rg, idade, peso, renda_bruta: real
 
@@ -42,23 +42,14 @@ inicio
     		escreva("Idade: 26")
 	leia(idade)
 		escreva("Nome do Pai: MARCELO DA SILVA")
-	leia(nome_do_pai)
+	leia(nome_pai)
 		escreva("Nome da Mae: JOANA MARIA DA SILVA")
-	leia(nome_da_mae)
+	leia(nome_mae)
 		escreva("Peso: 68 KG")
 	leia(peso)
 		escreva("Renda Bruta: R$ 1.100")
 	leia(renda_bruta)
 
  	fimse
-		fimse
-	fimse
-		fimse
-	fimse
-		fimse
-	fimse
-		fimse
-	fimse
-		fimse
-
+	
 fimalgoritmo
