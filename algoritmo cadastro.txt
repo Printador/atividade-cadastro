@@ -17,9 +17,10 @@ APRESENTE AS INFORMAÇÕES SOLICITADAS NO FINAL DO CADASTRO.
 algoritmo "CADASTRO"
 
 var
-opcao,tipo:inteiro
-nome, endereco:caracter
-cpf,telefone,data_nascimento:real
+opcao, tipo: inteiro
+nome, cidade, endereco, nome_pai, nome_mae: caracter
+cpf, rg, idade, peso, renda_bruta: real
+
 inicio
 
 	escreval("Cadastro de Cliente")
