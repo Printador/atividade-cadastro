@@ -62,5 +62,3 @@ inicio
 		fimse
 
 fimalgoritmo
-
-https://www.clubedohardware.com.br/forums/topic/771911-algoritmo-cadastro-no-visualg/
